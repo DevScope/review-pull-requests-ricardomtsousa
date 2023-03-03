@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Step 1",
+      "setup": "",
+      "run": "cat .github/script/STEP",
+      "input": "",
+      "output": "^[^0]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Step 2",
+      "setup": "",
+      "run": "cat .github/script/STEP",
+      "input": "",
+      "output": "^[^01]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Step 3",
+      "setup": "",
+      "run": "cat .github/script/STEP",
+      "input": "",
+      "output": "^[^012]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Step 4",
+      "setup": "",
+      "run": "cat .github/script/STEP",
+      "input": "",
+      "output": "^[^0123]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Step 5",
+      "setup": "",
+      "run": "cat .github/script/STEP",
+      "input": "",
+      "output": "^[^01234]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Step 6",
+      "setup": "",
+      "run": "cat .github/script/STEP",
+      "input": "",
+      "output": "^[^012345]+$",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
